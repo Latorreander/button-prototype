@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttons-container {
+    display: grid;
+   grid-template: repeat(2, 100px) / repeat(3, auto);
+   width: 400px;
+}
+
+.buttons-container .button {
+    display: none;
+}
+
+.buttons-container .active {
+    display: block;
+}
